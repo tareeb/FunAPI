@@ -1,95 +1,57 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+import "./page.css"
 
-export default function Home() {
+import Card from "../components/Cards/Card"
+
+export default function MainPage() {
+  
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
+    <div className="mainpage">
+
+      <div className="mainpage-header">
+        <h1>Feeling Bored ? </h1>
+        <p>Here are some Fun APIs to play with</p>
       </div>
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+      <div className='card-container'>
+    
+          <Card
+            title={'Get Random Activities'}
+            Description={'Get Random Activities from Bored API. You can also filter the activities by type and price.'}
+            link={"/boredapi"}
+          />
+
+          <Card
+            title={'Make Random User'}
+            Description={'Make Random User from RandomUser.me API. You will get a dummy user with a name, profile , email, phone number, and address.'}
+            link={"/randomuser"}
+          />
+
+          <Card
+            title={'Get Random Dog Images'}
+            Description={'Get Random Dog Images from Dog.Ceo API. You can make a gallery of these Cute images.'}
+            link={"/dogapi"}
+          />
+
+          <Card
+            title={'Get Random Cat Facts'}
+            Description={'Get Random Cat Facts from CatFact.Ninja API. You can make a List os these Fun facts.'}
+            link={"/catapi"}
+          />
+
+          <Card
+            title={'Scan Your Name'}
+            Description={'Get Information Related your Name using API from genderize.io and nationalize.io.'}
+            link={"/nameapi"}
+          />
+
+          <Card
+            title={'Create Memes'}
+            Description={'Get Random Memes from ImgFlip API. You can also make your own memes.'}
+            link={"/memeapi"}
+          />
+
       </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+    </div>
+    
   )
 }

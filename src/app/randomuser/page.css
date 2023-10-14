@@ -1,0 +1,44 @@
+.servicepage-header{
+    background-color: hsl(0, 0%, 96%);
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    align-items: center;
+    
+}
+
+.servicepage-header h3{
+    display: flex;
+    justify-content: center;
+}
+
+.randomuser .button-container{
+    width: 100%;
+    display: flex  ;
+    justify-content: center;
+    align-items: center;
+}
+
+.randomuser .button-container button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #00000071;
+    border: 1px solid black;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.randomuser .button-container button:hover{
+    background-color: #000000;
+    border: 1px solid #fff;
+}
+
+.randomuser-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}

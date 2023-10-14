@@ -1,0 +1,43 @@
+.CatApi{
+    min-height: 100vh;
+}
+
+.CatApi .button-container{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.CatApi .button-container button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.facts-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.facts-gallery div{
+    width: 100%;
+    border: 2px solid rgba(255, 255, 255, 0.802);
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.481);
+    padding: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+

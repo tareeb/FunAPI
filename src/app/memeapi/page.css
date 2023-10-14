@@ -1,0 +1,51 @@
+.memeapi .button-container{
+    width: 100%;
+    display: flex  ;
+    justify-content: center;
+    align-items: center;
+}
+
+.memeapi .button-container button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #00000071;
+    border: 1px solid black;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.memeapi .button-container button:hover{
+    background-color: #000000;
+    border: 1px solid #fff;
+}
+
+.memecontianer{
+    padding: 20px;
+}
+
+.memeapi .scrollcontianer{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    width: 100%;
+    height: 300px; /* Adjust the height as needed */
+    border: 1px solid #ccc; 
+}
+
+.memeapi .memecard{
+    display: inline-block;
+    width: 200px; /* Adjust the width of each image container as needed */
+    height: 100%; /* This ensures that each container occupies the full height of the parent */
+    margin-right: 10px; /* Optional: Add margin between image containers */
+    vertical-align: top; 
+    cursor: pointer;
+}
+
+.memecard img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}

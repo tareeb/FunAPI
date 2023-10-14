@@ -1,0 +1,40 @@
+.Card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+    height: 300px;
+    padding: 30px;
+    width: 400px;
+
+    background-color: #457b9d;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 12px;
+    color: white;
+    
+    transition: all 0.3s ease-in-out;
+}
+
+.Card h1{
+    font-size: 25px;
+    font-weight: 500;
+    transition: transform 0.3s ease-in-out;
+}
+
+.Card p{
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+} 
+
+.Card:hover{
+    background-color: #a8dadcdb; 
+    border: 4px solid black;
+    color: black;
+}
+
+.Card:hover h1{
+    transform: scale(1.2);
+}
+

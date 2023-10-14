@@ -1,0 +1,79 @@
+.randomuser-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: #457b9d;
+    border: 2px solid white;
+    width: 600px;
+}
+
+
+
+.randomuser-card .randomuser-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.randomuser-card img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 2px solid white;
+    transition: all 0.3s ease-in-out;
+}
+
+.randomuser-details div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #a8dadc;
+    padding: 5px 20px;
+    border-radius: 20px;
+    gap: 10px;
+    margin-bottom: 10px;
+    flex-direction: column;
+}
+
+.randomuser-card h1{
+    font-size: 20px;
+    font-weight: 500;
+    color: #a8dadc;
+}
+
+.randomuser-card h3{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+
+.randomuser-card img:hover{
+    transform: scale(1.05);
+    border: 1px solid black;
+    transition: all 0.3s ease-in-out;
+}
+
+.randomuser-details div:hover{
+    background-color: rgba(218, 226, 226, 0.859);
+    border: 1px solid #000000;
+    transition: all 0.3s ease-in-out;
+}
+
+.randomuser-details div:hover h1 {
+    color: #1d3557;
+    transition: all 0.3s ease-in-out;
+}
+
+.randomuser-details div:hover h3 {
+    color: #264653;
+    transition: all 0.3s ease-in-out;
+}

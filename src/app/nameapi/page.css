@@ -1,0 +1,24 @@
+.servicepage{
+    min-height:100vh ;
+}
+
+
+.servicepage-input{
+    text-align: center;
+}
+
+.servicepage-input input{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.servicepage-input button{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+}

@@ -1,0 +1,110 @@
+.memegenerator{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.memegenerator .left-menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: min-content;
+    
+}
+
+.memegenerator .canvas{
+    width: 800px;
+    height: auto;
+    border: 5px solid black;
+    overflow: hidden;
+}
+
+.memegenerator .image-container{
+   position: relative; 
+}
+
+.memegenerator .left-menu .image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.memegenerator .right-menu{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.memegenerator .right-menu .inputs-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.memegenerator .right-menu input{
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.memegenerator .right-menu input:focus{
+    outline: none;
+}
+
+.memegenerator .button-containers{
+    display: flex;
+    flex-direction: column;
+}
+.memegenerator button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #000000d0;
+    border: 1px solid rgb(218, 218, 218);
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 10px;
+}
+
+
+@media screen and (max-width:1150px) {
+    .memegenerator{
+        flex-direction: column;
+    }
+
+    .memegenerator .right-menu{
+        flex-direction: row;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .memegenerator .canvas{
+        width: 500px;
+    }
+
+    .memegenerator .right-menu{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .memegenerator .canvas{
+        width: 300px;
+    }
+
+}
+    
+    

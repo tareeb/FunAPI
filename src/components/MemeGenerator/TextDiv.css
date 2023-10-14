@@ -1,0 +1,12 @@
+.draggable-text{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: fit-content;
+    z-index: 2;
+    cursor: move;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
