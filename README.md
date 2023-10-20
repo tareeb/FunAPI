@@ -44,27 +44,34 @@ If you like to contribute and add more FUN API's you are more then Welcome
 
 - **Menu Page**
   
-  ![img1](https://github.com/tareeb/FunAPI/assets/67794123/25c2785e-336e-4433-8742-c3b88af9439f)
+  ![img1](https://github.com/tareeb/FunAPI/assets/67794123/a9403562-919c-4d8f-b205-9548501d5db3)
+
 
 - **Bored API**
-  
-  ![img2](https://github.com/tareeb/FunAPI/assets/67794123/d4575520-6d15-43c3-877b-d23a13bbcc63)
+
+![img2](https://github.com/tareeb/FunAPI/assets/67794123/4bbec457-2ff2-4b5c-9cb0-0e093647411d)
+
 
 - **Random User**
   
-  ![img3](https://github.com/tareeb/FunAPI/assets/67794123/716c72b2-20a6-4f7b-af6a-3d5d817d38e5)
+  ![img3](https://github.com/tareeb/FunAPI/assets/67794123/f0218886-0fbe-4207-94ac-9e48bc3a2bab)
+
 
 - **Dog API**
-  
-  ![img4](https://github.com/tareeb/FunAPI/assets/67794123/69e59393-c02c-4b89-8278-d49f841bb4b6)
+
+  ![img4](https://github.com/tareeb/FunAPI/assets/67794123/4e26b8cf-d344-49a9-a4f3-13ab6be2ae84)
+
+
 
 - **Cat API**
-  
-  ![img6](https://github.com/tareeb/FunAPI/assets/67794123/b5dfbc8c-ae60-4769-a90e-4b1f976b14b8)
+
+ ![img6](https://github.com/tareeb/FunAPI/assets/67794123/8b3eca2f-a6ae-46bc-9ac9-400e14ae9e1d)
+
 
 - **Meme Generator**
-  
-  ![img7](https://github.com/tareeb/FunAPI/assets/67794123/3677ff7a-c644-48c4-8254-a2b3c69f7237)
+
+
+![img7](https://github.com/tareeb/FunAPI/assets/67794123/d474f39b-9d57-45a0-b932-732a60fc8c81)
 
 
 <br><br><br>
